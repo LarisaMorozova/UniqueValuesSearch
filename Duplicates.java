@@ -74,9 +74,9 @@ public class Duplicates {
             }
 
             if (firstList.size() > 0) {
-                for (String ngkKey : firstList) {
+                for (String f : firstList) {
                     System.out.println(firstFile.getName() + " contains following unique values:");
-                    System.out.println(ngkKey);
+                    System.out.println(f);
                 }
             } else {
                 System.out.println("Nothing to print");
@@ -89,9 +89,9 @@ public class Duplicates {
             }
 
             if (secondList.size() > 0) {
-                for (String ngkKey : secondList) {
+                for (String s : secondList) {
                     System.out.println(secondFile.getName() + " contains following unique values:");
-                    System.out.println(ngkKey);
+                    System.out.println(s);
                 }
             } else {
                 System.out.println("Nothing to print");
