@@ -74,8 +74,8 @@ public class Duplicates {
             }
 
             if (firstList.size() > 0) {
+                System.out.println(firstFile.getName() + " contains following unique values:");
                 for (String f : firstList) {
-                    System.out.println(firstFile.getName() + " contains following unique values:");
                     System.out.println(f);
                 }
             } else {
@@ -89,8 +89,8 @@ public class Duplicates {
             }
 
             if (secondList.size() > 0) {
+                System.out.println(secondFile.getName() + " contains following unique values:");
                 for (String s : secondList) {
-                    System.out.println(secondFile.getName() + " contains following unique values:");
                     System.out.println(s);
                 }
             } else {
